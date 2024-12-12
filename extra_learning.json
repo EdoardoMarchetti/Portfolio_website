@@ -11,6 +11,7 @@
         "description":"* Opta event data\n* Skill Corner tracking data\n * Data Engineering\n * Advance footbal metrics",
         "project":"",
         "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Marchetti%20Edoardo.pdf"
+        
     },
     {
         "name":"Football Data Analyst",
@@ -41,13 +42,14 @@
     {
         "name":"Match Analyst",
         "start": "07/24",
-        "end": "-",
+        "end": "08/24",
         "institution":"FIGC",
         "media":{
         "type":"image",
         "path":"images/home/figc.png"
         },
         "description":"The course aims to provide the necessary training and cultural supports to individuals who may be called upon to carry out, on behalf of clubs, activities of technical-tactical analysis, video-digital archiving and collection of statistical data of players and teams.",
-        "project":""
+        "project":"Individual Offensive Threat Index",
+        "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/DiplomaMatchAnalyst.pdf"
     }
 ]

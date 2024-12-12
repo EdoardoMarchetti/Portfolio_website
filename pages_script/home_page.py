@@ -135,7 +135,8 @@ for i, we in enumerate(work_experince):
                                         margin-top:15px;                                        
                 }
                 """]):
-                    st.image(we['media']['path'])
+                    if we.get('media', {}):
+                        st.image(we['media']['path'])
             
             with text_col:
                 start_transformed = transform_date(we['start'])
@@ -183,7 +184,8 @@ for i, e in enumerate(education):
                                         margin-top:15px;                                        
                 }
                 """]):
-                    st.image(e['media']['path'])
+                    if e.get('media', {}):
+                        st.image(e['media']['path'])
             
             with text_col:
                 start_transformed = transform_date(e['start'])

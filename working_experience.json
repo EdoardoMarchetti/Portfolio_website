@@ -1,5 +1,17 @@
 [
     {
+        "name":"Football Data Analyst",
+        "start": "10/24",
+        "end": "-",
+        "display_period":"08/23 - Present",
+        "company":"Freelencer",
+        "media":{},
+        "description":"* Web app creation.\n* Sqlite database management and integration with API\n* Creation of reports",
+        "hard_skills":["Python", "SQL", "Tableau", "Streamlit"],
+        "soft_skills":["Customer interaction", "Ability to adapt to changing demands and work groups"],
+        "related_projects":[]
+    },
+    {
         "name":"First Team Collaborator",
         "start": "08/23",
         "end": "06/24",

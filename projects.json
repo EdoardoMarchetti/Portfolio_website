@@ -1,7 +1,17 @@
 [
     {
+        "name":"Individual Offensive Threat Index",
+        "media":{
+        "type":"image",
+        "path":"images/projects/IPOI.png"
+        },
+        "description":"**Purpose:** Creation of a new index that can represent a player's overall offensive contribution\n\nStarting with the [**Offensive Threat Index**](https://www.sics.it/indice-di-pericolosita/), created by Maurizio Viscidi and Anotnio Gagliardi, I developed a new index that allows us to quantitatively describe the offensive contribution of each player.  \n\nIn the study I show how I made the new metric (IOTI, or IPOI in Italian), the correlation there is between better known metrics such as xG, xT or xOVA, and finally how the individual offensive dangerousness index can be used both in scouting and in opponent analysis ",
+        "button_label":"Download the thesis",
+        "url":"https://drive.google.com/uc?export=download&id=1h7ADBfw7IYHqIh2xK1SQQbVcgFDqQi2g",
+        "tags":["Scouting", "SerieB", "Data Engineering", "Python", "Pandas", "Offensive index"]
+    },
+    {
         "name":"Match Report Generator",
-        
         "media":{
         "type":"image",
         "path":"images/projects/match_report_generator.png"
