@@ -1,5 +1,17 @@
 [
     {
+        "name":"MSc Artificial Intellingence applied to sports",
+        "start": "03/25",
+        "end": "-",
+        "grade":"",
+        "institution":"Sport Data Campus",
+        "media":{
+        "type":"image",
+        "path":"images/home/polito.png"
+        },
+        "description":"The program aims to train specialists in advanced machine learning and deep learning for enhancing sports performance and event management."
+    },
+    {
         "name":"MSc Data Science and Engineering",
         "start": "10/21",
         "end": "04/24",

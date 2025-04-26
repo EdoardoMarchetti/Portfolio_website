@@ -1,4 +1,30 @@
-[
+[   
+    {
+        "name":"Physical Performance Certificate",
+        "start": "05/25",
+        "end": "05/25",
+        "institution":"Catapult",
+        "media":{
+        "type":"image",
+        "path":"images/home/figc.png"
+        },
+        "description":"An official certification that enable to work with Catapult Technologies",
+        "project":"-",
+        "url":"-"
+    },    
+{
+        "name":"Match Analyst",
+        "start": "07/24",
+        "end": "08/24",
+        "institution":"FIGC",
+        "media":{
+        "type":"image",
+        "path":"images/home/figc.png"
+        },
+        "description":"The course aims to provide the necessary training and cultural supports to individuals who may be called upon to carry out, on behalf of clubs, activities of technical-tactical analysis, video-digital archiving and collection of statistical data of players and teams.",
+        "project":"Individual Offensive Threat Index",
+        "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/DiplomaMatchAnalyst.pdf"
+    },
     {
         "name":"Football Data Scientist",
         "start": "04/24",
@@ -38,18 +64,6 @@
         "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Tableua_Data%20Visualization%20for%20Football%20Data%20Analyst.pdf?raw=true",
         "description":"* Tableau\n* Data Scraping & Engineering",
         "project":"Match Report Generator, dashboard to generate post-match reports of the matches of the 2022/2023 Serie A season"
-    },
-    {
-        "name":"Match Analyst",
-        "start": "07/24",
-        "end": "08/24",
-        "institution":"FIGC",
-        "media":{
-        "type":"image",
-        "path":"images/home/figc.png"
-        },
-        "description":"The course aims to provide the necessary training and cultural supports to individuals who may be called upon to carry out, on behalf of clubs, activities of technical-tactical analysis, video-digital archiving and collection of statistical data of players and teams.",
-        "project":"Individual Offensive Threat Index",
-        "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/DiplomaMatchAnalyst.pdf"
     }
+    
 ]
