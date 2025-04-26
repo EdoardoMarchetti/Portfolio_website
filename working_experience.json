@@ -7,7 +7,7 @@
         "company":"Scouting Department - Freelencer",
         "media":{
             "type":"image",
-            "path":"images/home/sd_logo.png"
+            "path":"images/home/sd_logo.jpeg"
         },
         "description":"* Weekly video and data reports.\n* Team analysis\n* Player analysis",
         "hard_skills":["Python", "SQL", "Tableau", "Streamlit", "Wyscout", "Hudl Sportscode"],
