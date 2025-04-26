@@ -74,9 +74,9 @@ with image_hero_col:
 with presentation_col:
     st.title("Edoardo Marchetti", anchor=False)
     st.write(
-        "Graduated in **Data science and Engineering at the Polytechnic of Turin** 📊. Sports enthusiast 🏆. I love to realize projects that allows me to combine the sporting world with my academic background through data analysis and AI 🤖. Visit 'My projects' page to discover what I realized and feel free to contact me 😉"
+        "Football Data Analyst & Data Scientist | Match Analyst @FIGC | MSc Graduated in Data Science @Polytechnic of Turin 📊 | Sports enthusiast 🏆. I love to realize projects that allows me to combine the sporting world with my academic background through data analysis and AI 🤖. Visit 'My projects' page to discover what I realized and feel free to contact me 😉"
     )
-    st.write("📧 edoardomarchetti2@gmail.com")
+    st.write("📧 edoardomarchetti.projects@gmail.com")
 
     
     
@@ -241,7 +241,7 @@ for i, e in enumerate(extra_learning):
                 st.markdown(f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{e['institution']}</span> | <span style='color:{LIGHT_GRAY};'>{e['display_period']} </span> ", unsafe_allow_html=True)
                 st.markdown(f"### {e['name']}")
                 st.markdown(f"{e['description']}")
-                if e['project']:
+                if e.get('project', None):
                     st.markdown(f"**Project** {e['project']}")
                 if 'url' in e:
                     st.link_button('Certification', url=e['url'])
