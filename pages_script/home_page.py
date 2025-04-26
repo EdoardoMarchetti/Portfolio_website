@@ -197,7 +197,9 @@ for i, e in enumerate(education):
                 st.markdown(f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{e['institution']}</span>  | <span style='color:{LIGHT_GRAY};'>Grade: {e['grade']} | </span>  <span style='color:{LIGHT_GRAY};'>{e['display_period']} </span>", unsafe_allow_html=True)
                 st.markdown(f"### {e['name']}")
                 st.markdown(f"{e['description']}")
-                st.markdown(f"**Thesis title** {e['thesis']}")
+
+                if e.get('thesis', None):
+                    st.markdown(f"**Thesis title** {e['thesis']}")
                 
                 
                 st.markdown("<br>", unsafe_allow_html=True)
