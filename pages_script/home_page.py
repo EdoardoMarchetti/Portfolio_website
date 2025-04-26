@@ -236,7 +236,7 @@ for i, e in enumerate(extra_learning):
             with text_col:
                 start_transformed = transform_date(e['start'])
                 end_transformed = transform_date(e['end'])
-                e['display_period'] = f"{start_transformed} - {end_transformed}"
+                e['display_period'] = f"{start_transformed} - {end_transformed}" if start_transformed != end_transformed else start_transformed
 
                 st.markdown(f"<span style='color:{LIGHT_GRAY}; font-weight:bold; white-space: pre;'>{e['institution']}</span> | <span style='color:{LIGHT_GRAY};'>{e['display_period']} </span> ", unsafe_allow_html=True)
                 st.markdown(f"### {e['name']}")

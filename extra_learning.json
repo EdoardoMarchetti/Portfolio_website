@@ -9,7 +9,7 @@
         "path":"images/home/catapult_sports_logo.jpeg"
         },
         "description":"An official certification that enable to work with Catapult Technologies",
-        "project":"-",
+        
         "url":"https://github.com/EdoardoMarchetti/Certificates/blob/main/Catapul_Physical_Performance_Certificate.pdf"
     },    
 {
@@ -65,5 +65,4 @@
         "description":"* Tableau\n* Data Scraping & Engineering",
         "project":"Match Report Generator, dashboard to generate post-match reports of the matches of the 2022/2023 Serie A season"
     }
-    
 ]
