@@ -5,7 +5,10 @@
         "end": "-",
         "display_period":"10/23 - Present",
         "company":"Scouting Department - Freelencer",
-        "media":{},
+        "media":{
+            "type":"image",
+            "path":"images/home/sd_logo.png"
+        },
         "description":"* Weekly video and data reports.\n* Team analysis\n* Player analysis",
         "hard_skills":["Python", "SQL", "Tableau", "Streamlit", "Wyscout", "Hudl Sportscode"],
         "soft_skills":["Project mangement", "Team coordination"],
