@@ -30,6 +30,21 @@
         "related_projects":[]
     },
     {
+        "name":"Teacher",
+        "start": "06/25",
+        "end": "07/25",
+        "display_period":"",
+        "company":"ITS Leaonardo Academy",
+        "media":{
+            "type":"image",
+            "path":"images/home/its_leaonardo.jpeg"
+        },
+        "description":"Design and development of a 24-hour course entitled **Detection Technologies and Data Types**. The aim of the course was to introduce a class of students aged between 19 and 23 to the data acquisition technologies available on the market in the field of sports and their use in analyzing the performance of a team or player. At the end of the course, students were asked to create a project as a final exam.",
+        "hard_skills":["Power Point", "Google Slides"],
+        "soft_skills":["Public Speaking"],
+        "related_projects":[]
+    },
+    {
         "name":"Football Data Analyst",
         "start": "10/24",
         "end": "-",
