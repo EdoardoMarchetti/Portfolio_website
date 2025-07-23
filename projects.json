@@ -24,13 +24,24 @@
     {
         "name":"Scouting Dashboard",
         "media":{
-        "type":"image",
-        "path":"images/projects/scouting_dashboard.png"
+        "type":"video",
+        "path":"images/projects/scouting_dashboard.mp4"
         },
-        "description":"**Purpose:** Dashboard to optimize player research across the big 5 eurpean leagues.\n\nThe project is organized into 3 sections:\n\n 1) **Where is the talent?** Imagining a scenario in which you have to decide which country to send a scout to, the first page shows an overview of the top 5 European leagues. On the left there is a map which indicates the number of players present in the championship, on the right you can see the distribution of them by age role and two top 5.\n2) **Who is the best?** Once you have chosen the nation to explore, the second page allows you to compare the players in the championship. The Cartesian axes allow you to compare players on two metrics, while the table can be used to view multiple metrics together.\n3) **Can this player improve the my team?** The last page shows how the player performs compared to his league average and compared to the average of Man City players.",
+        "description":"**Purpose:** Dashboard to optimize player research across the big 5 eurpean leagues.\n\nThe project is organized into 3 sections:\n\n 1) **Where is the talent?** Imagining a scenario in which you have to decide which country to send a scout to, the first page shows an overview of the top 5 European leagues. On the left there is a map which indicates the number of players present in the championship, on the right you can see the distribution of them by age role and two top 5.\n2) **Who is the best?** Once you have chosen the nation to explore, the second page allows you to compare the players in the championship. The Cartesian axes allow you to compare players on two metrics, while the table can be used to view multiple metrics together.\n3) **Can this player improve the my team?** The last page shows how the player performs compared to his league average and compared to the average of the target team players.",
         "button_label":"Visit the dashboard",
-        "url":"https://public.tableau.com/app/profile/edoardo.marchetti/viz/CityGroup-ScoutingdashboardOnlinev2/WhereIstheTalent?publish=yes",
+        "url":"https://public.tableau.com/app/profile/edoardo.marchetti/viz/ScoutingDashboard_17532820888520/WhereIstheTalent",
         "tags":["Tableau", "Scouting", "Euro Big5", "Python", "Pandas", "Beatiful soup", "Data Scraping"]
+    },
+    {
+        "name":"Build Up Analysis",
+        "media":{
+        "type":"image",
+        "path":"images/projects/build_up_analysis.png"
+        },
+        "description":"**Purpose:** Dashboard to analyze the first build up of my team.\n\nThe dashboard allows you to view maps of the movements of the two central defenders. \n\nTo collect data, I uploaded the video of the match to the team's YouTube channel and then imported it into YouTubeCoder by FcPython. After exporting the CSV file, I preprocessed the data using Python and finally uploaded it to Tableau. \n\nOn the right side of the dashboard is the control panel, which allows you to select the player whose passes you want to analyze and set filters for outcome and receiver role.\n\nOn the left, there are four fields:\n * At the top, the colors distinguish between completed passes (green) and failed passes (red).\n* At the bottom, the colors define the role of the receiver.\n\nThe two fields on the left refer to the first half, while the two fields on the right refer to the second 45 minutes.",
+        "button_label":"Visit the dashboard",
+        "url":"https://public.tableau.com/app/profile/edoardo.marchetti/viz/Tiber-PassignanoAnalisiPassaggiDCinuscita/Dashboard1",
+        "tags":["Tableau", "Match Analysis", "Tactical Analysis", "Match coding", "Pandas"]
     },
     {
         "name":"Playing Style Analysis",
